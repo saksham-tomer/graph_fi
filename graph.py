@@ -8,4 +8,4 @@ for i in range(0,randint(1,90)):
     os.system('git add .')
     os.system('git commit --date="' + d + '" -m "commit"')
 
-os.system('git push -u origin main')
+os.system('git push -u -f origin main')
